@@ -1,7 +1,12 @@
 <h2 align="left">Hi 👋! My name is Raya Jauhari and I'm a Game Developer from Indonesia 🇮🇩</h2>
 
-I'm passionate about building meaningful, story-driven games that blend creativity, exploration, and education.  
-Currently working on an **educational 2D RPG** and exploring the emotional side of interactive storytelling.
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div>
+    I'm passionate about building meaningful, story-driven games that blend creativity, exploration, and education.  
+    Currently working on an <strong>educational 2D RPG</strong> and exploring the emotional side of interactive storytelling.
+  </div>
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHNuaXRiaTR0bHpxZ2dla3NlbDFwdTZ4NTEycmI5cWI3dmowODA5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eL00ihPDmpZTdxBOfn/giphy.gif" height="120" alt="Coding GIF" />
+</div>
 
 ---
 
@@ -11,8 +16,6 @@ Currently working on an **educational 2D RPG** and exploring the emotional side 
 </div>
 
 ---
-
-<img align="right" height="150" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHNuaXRiaTR0bHpxZ2dla3NlbDFwdTZ4NTEycmI5cWI3dmowODA5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eL00ihPDmpZTdxBOfn/giphy.gif" alt="Coding GIF" />
 
 ### 🛠️ Tech I Use
 
