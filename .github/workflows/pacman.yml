@@ -1,30 +1,41 @@
-name: Generate pacman animation
+# 📄 .github/workflows/pacman.yml
 
+name: 🟡 Generate Pacman Contribution Animation
+
+# === Trigger ===
 on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+  # ⏰ Jalan otomatis setiap 12 jam
+  schedule:
+    - cron: "0 */12 * * *"
 
+  # ▶️ Bisa dijalankan manual dari GitHub UI
   workflow_dispatch:
 
+  # 🔁 Jalan setiap kali ada push ke cabang main
   push:
     branches:
-    - main
+      - main
 
+# === Job ===
 jobs:
   generate:
-    permissions:
-      contents: write
+    name: Generate and Deploy Pacman Graph
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
+    # ✍️ Mengizinkan workflow untuk menulis ke branch 'output'
+    permissions:
+      contents: write
+
     steps:
-      - name: generate pacman-contribution-graph.svg
+      # ⬇️ Step 1: Generate pacman graph SVG
+      - name: 🛠 Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-
-      - name: push pacman-contribution-graph.svg to the output branch
+      # ⬆️ Step 2: Push hasil ke branch 'output'
+      - name: 🚀 Push to 'output' branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
