@@ -3,7 +3,7 @@
 <div style="display: flex; align-items: center; gap: 20px;">
   <div>
     I'm passionate about building meaningful, story-driven games that blend creativity, exploration, and education.  
-    Currently working on an <strong>educational 2D RPG</strong> and exploring the emotional side of interactive storytelling.
+    Currently working on an <strong>2D RPG</strong> and exploring the emotional side of interactive storytelling.
   </div>
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHNuaXRiaTR0bHpxZ2dla3NlbDFwdTZ4NTEycmI5cWI3dmowODA5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/eL00ihPDmpZTdxBOfn/giphy.gif" height="120" alt="Coding GIF" />
 </div>
